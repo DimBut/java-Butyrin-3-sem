@@ -1,6 +1,6 @@
 package ru.spbu.arts.java.oop.ascigraphics;
 
-public class Drawing {
+public class Drawing implements Printable {
     char [][] k;
 
     Drawing(int a, int b, char f){
